@@ -24,7 +24,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 
 global.devs = "923184474176" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "25471077266";
+global.owner= process.env.OWNER_NUMBER ? process.env.2348104656991(/[\s+]/g, '') : "25471077266";
 
 
 
@@ -49,7 +49,7 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "25471077266,254xxxxxx
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
-global.read_status = process.env.AUTO_READ_STATUS || "true"
+global.read_status = process.env.AUTO_READ_STATUS || "false"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,923xxxxxxxx";
 global.read_status_from =  process.env.READ_STATUS_FROM  ||  "254710772666,254xxxxxxxx";
@@ -66,10 +66,10 @@ module.exports = {
   VERSION : process.env.VERSION || "V.1.2.8",
   caption : process.env.CAPTION || "©ⁱᵇʳᵃʰⁱᵐ ᵗᵉᶜʰ💥90✴" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
-  author : process.env.PACK_AUTHER|| "Ibrahim",
+  author : process.env.PACK_AUTHER|| "Kelvin",
   packname: process.env.PACK_NAME || "👑",
   botname : process.env.BOT_NAME  || " 𝗜𝗕𝗥𝗔𝗛𝗜𝗠-ᵐᵈ",
-  ownername:process.env.OWNER_NAME|| "It'x 𝗜𝗕𝗥𝗔𝗛𝗜𝗠",
+  ownername:process.env.OWNER_NAME|| "Kelvin",
 
   sessionName:process.env.SESSION_ID || "",  // PUT SESSION ID HERE 
   errorChat : process.env.ERROR_CHAT || "",
